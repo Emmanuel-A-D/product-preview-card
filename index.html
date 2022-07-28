@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<html>
+<html lang="CO">
 <head>
+     <title>tarjeta de vista previa del producto</title>
      <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
      <script src="https://kit.fontawesome.com/3b92c29675.js" crossorigin="anonymous"></script>
@@ -71,7 +72,6 @@ h1{
      background: hsl(158, 36%, 37%);
      border-radius: 5px;
      border: none;
-     text-transform: capitalize;
 }
 input:hover{
      cursor: pointer;
@@ -143,9 +143,9 @@ h1{
 <section id="card">
 <div id="img">
     <picture>
-     <source srcset="image-product-desktop.jpg">
-     <source srcset="image-product-mobile.jpg" media="(max-widht : 375px)">
-     <img  class="img_product" src="image-product-desktop.jpg">
+     <source type="img" srcset="image-product-desktop.jpg">
+     <source type="img" srcset="image-product-mobile.jpg" media="(max-widht : 375px)">
+     <img  class="img_product" src="image-product-desktop.jpg" alt="iamgen">
     </picture>
 </div>
 <div id="descripcion">
